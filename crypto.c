@@ -2,9 +2,6 @@
 * Chat system implementation usng UDP  -
 *---------------------------------------
 * Caesar Cipher Encryption             -
-* Segmentation                         -  
-* Keep alive msg                       -
-* socket and flooding                  -
 * --------------------------------------
 * Author: Ephrem Getachew Demesa
 *         Kayode Omotoye
