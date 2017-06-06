@@ -1,3 +1,15 @@
+/*--------------------------------------                
+* Chat system implementation usng UDP  -
+*---------------------------------------
+* Caesar Cipher Encryption             -
+* Segmentation                         -  
+* Keep alive msg                       -
+* socket and flooding                  -
+* --------------------------------------
+* Author: Ephrem Getachew Demesa
+*         Kayode Omotoye
+*/
+
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
