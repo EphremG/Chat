@@ -4,7 +4,7 @@
 * Caesar Cipher Encryption             -
 * Segmentation                         -  
 * Keep alive msg                       -
-* socket and flooding                  -
+* socket                 -
 * --------------------------------------
 * Author: Ephrem Getachew Demesa
 *         Kayode Omotoye
