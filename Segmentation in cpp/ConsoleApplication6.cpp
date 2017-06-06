@@ -1,6 +1,6 @@
 // ConsoleApplication6.cpp : Defines the entry point for the console application.
 // Testing if segmentation and reassembling works as it is supposed to be!
-// Author: Tigranuhi Mkhitaryan, Alar Paas
+// Author: Tigranuhi Mkhitaryan, Alar Paas, Kayode Omotoye, Ephrem Demesa
 
 #include <iostream>
 #include "Segmentation.h"
