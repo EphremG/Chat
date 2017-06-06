@@ -32,6 +32,7 @@ gcc c1.c -o c1 && gcc c2.c -o c2
 ./c1 ./c2 on different terminal.
 
 
+consoleApplication6.cpp can run on windows to show segmentation and assembling works.
 
 =================================================================================
 
