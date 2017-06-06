@@ -148,24 +148,15 @@ Keep Alive Message
 
 PROTOCOL
 
-This the given protocol, I have created the 
-keep alive messages and connect with socket and flood to 
-all neighbours every 5 second. 
+In the given protocol, KeepAlive message is created and connect with socket and flood to 
+neighbours every 5 second. The message is a character "A". 
 
-When a new client is connected, it sends also for the new neighbours
-parallarly by using threading. 
+it sends for the neighbours parallarly while chatting using POSIX(threading in C)
 
 REQUIRMENTS
 
 This part of the implementation handles the keep alive messages 
-for the given chat protocol. As a requirement, we must intialize server by 
-calling the method called server_init() from the socket handler. 
-
-The basic functionality of this implementaion are:
-
-    - Sending keep alive messages to all neighbours
-    - If a new neighbour joined, it also sends keep alive message parallary, 
-          Therefore there is no need to wait till it wakes up from sleep.
+for the given chat protocol. 
     
 IMPLEMENTATION
 First we created the thread in the base (main function).  
@@ -177,7 +168,8 @@ and the keep alive message is defined as void* keep_alive_msg(void* ptr)
 
 Message Encryption and Decryption
 
-Done using a simple Caesar cipher with a shift of 3 in C.
+Done using a Caesar cipher with a shift of 3 in C. 
+TO use we call two methods called Encryption and Decryption
 
 
 Challenges
