@@ -31,7 +31,7 @@ Segmentation and assembling doesn't work fine here.
 
 c1.c & c2.c
 
-To check compatibility with another way of implementation we made c1 and c2 (Single thread). Segmentation and assembling works here. c1 requests to chat, and c2 can only reply after getting a message.
+To check compatibility with another way of implementation we made c1 and c2. Segmentation and assembling works here. c1 requests to chat, and c2 can only reply after getting a message.
 
 gcc c1.c -o c1 && gcc c2.c -o c2
 
