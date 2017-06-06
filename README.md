@@ -4,10 +4,16 @@ Chat System
 Message encryption and decryption (C) : Done
 Packet packet formation, fragmentation and assembling (C and C++) : Done
 Packet hashing and hash table function (C++) : Done in C++ on windows
-Hop by hop acknowledgement ( C ) : Done
 Keep alive message ( C ) : Done
 Acknowledgement (C) : Done
 Compatibility with other code : To test with another C code we built (Although not working perfectly, and tested with a python sending code.
+
+Done by:
+Kayode Omotoye,
+Ephrem Demesa,
+Tigranuhi Mkhitaryan,
+Alaar Paas.
+
 
 =============
 Testing
