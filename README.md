@@ -8,13 +8,6 @@ Keep alive message ( C ) : Done
 Acknowledgement (C) : Done
 Compatibility with other code : To test with another C code we built (Although not working perfectly, and tested with a python sending code.
 
-Done by:
-Kayode Omotoye,
-Ephrem Demesa,
-Tigranuhi Mkhitaryan,
-Alaar Paas.
-
-
 =============
 Testing
 =============
