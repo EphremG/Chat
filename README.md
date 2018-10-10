@@ -16,7 +16,6 @@ Chat.c
 gcc Chat.c -pthread -o chat
 
 open 3 different terminal and paste the following separately. 
-Segmentation and assembling doesn't work fine here.
 
  ./chat 1111 127.0.0.1 2222 3333                                                                                     
  ./chat 2222 127.0.0.1 1111 3333                                                                                   
@@ -120,7 +119,7 @@ This project contains the implementation of:
 - Check the existence of the packet in the list.
 - Hash times out every 10 minutes.
 
-The code was implemented on windows with C++ by Tigranuhi Mkhitaryan. 
+The code was implemented on windows with C++
 
 Notice: This implementation is using SHA256 algorithm. In order to be able to use this implementation openssl library should be downloaded and installed.
 	The last version of openssl library can be found and downloaded here --> https://www.openssl.org/source/ .
@@ -163,10 +162,4 @@ Message Encryption and Decryption
 
 Done using a Caesar cipher with a shift of 3 in C. 
 TO use we call two methods called Encryption and Decryption
-
-
-Challenges
-==========
-
-1.) Chat.c does not allow sending of long text, hence doesn’t assemble.
 
